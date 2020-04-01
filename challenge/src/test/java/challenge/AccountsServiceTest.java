@@ -52,7 +52,7 @@ public class AccountsServiceTest {
 		this.accountsService.createAccount(account);
 
 		Account account1 = new Account("acc_Id-2020");
-		account1.setBalance(new BigDecimal(1000));
+		account1.setBalance(new BigDecimal(1000)); 
 		this.accountsService.createAccount(account1);
 		String accountFrom = "acc_Id-1010";
 		String accountTo = "acc_Id-2020";
